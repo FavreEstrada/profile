@@ -1,0 +1,46 @@
+{
+  "name": "profile",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "dev": "webpack --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FavreEstrada/profile.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FavreEstrada/profile/issues"
+  },
+  "homepage": "https://github.com/FavreEstrada/profile#readme",
+  "devDependencies": {
+    "@types/react": "^16.0.2",
+    "@types/react-select": "^1.2.0",
+    "autoprefixer": "^7.2.6",
+    "css-loader": "^0.28.9",
+    "extract-text-webpack-plugin": "^3.0.2",
+    "file-loader": "^1.1.6",
+    "image-webpack-loader": "^4.1.0",
+    "postcss-loader": "^2.1.0",
+    "precss": "^3.1.0",
+    "sass-loader": "^6.0.6",
+    "style-loader": "^0.20.1",
+    "ts-loader": "^3.5.0",
+    "typescript": "^2.7.1",
+    "url-loader": "^0.6.2",
+    "webpack": "^3.11.0"
+  },
+  "dependencies": {
+    "bootstrap": "^4.0.0",
+    "highcharts": "^6.0.6",
+    "node-sass": "^4.7.2",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0"
+  }
+}
