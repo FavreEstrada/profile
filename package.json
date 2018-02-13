@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack",
-    "dev": "webpack --watch"
+    "dev": "webpack --watch",
+    "start-server": "http-server . -c-1 -o"
   },
   "repository": {
     "type": "git",
@@ -39,6 +40,7 @@
   "dependencies": {
     "bootstrap": "^4.0.0",
     "highcharts": "^6.0.6",
+    "http-server": "^0.11.1",
     "node-sass": "^4.7.2",
     "react": "^16.2.0",
     "react-dom": "^16.2.0"
